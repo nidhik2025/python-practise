@@ -4,7 +4,7 @@
 # object: jhon,jeck,mery,nia,jully
 
 # creating class
-class Point:
+'''class Point:
     def draw(self):
         print("draw")
 
@@ -126,10 +126,28 @@ cloud.add("python")
 print(cloud.tags)
 
 #properties
-class math:
-    def __init__(self,a,b,c,d):
-        self.a = a
-        self.b = b
-        self.c = c
-        self.d = d
-    
+class person:
+    name = "nia"
+    occupation  = "software developer"
+    networth = 90
+
+    def info(self):
+        print(f"{self.name} is a {self.occupation} ")
+
+a = person()
+b = person()
+c = person()
+b.name = "sia"
+b.occupation = "designer"
+a.info()
+b.info()
+c.info()'''
+class person:
+    def __init__(self):#dunder method for making constructor
+        # self.name = name
+        print("hey!! i am a person")
+
+a = person()
+b = person()
+c = person()
+
