@@ -124,4 +124,4 @@ class fish(animal):
 # mammle: child
 m = mammle()
 m.eat()
-print(m.age)    
+print(m.age) 
