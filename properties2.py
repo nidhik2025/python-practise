@@ -4,7 +4,7 @@
 #=> it implements the iterator protocal which consist of the methods __iter__() and __next__()
 
 # all the objects have iter() method to get an iterator
-'''fruit = ("apple","banana","strawberry","pineapple","kiwi","mango")
+fruit = ("apple","banana","strawberry","pineapple","kiwi","mango")
 fruit1 = "cherry"
 myshope = iter(fruit1)
 
@@ -111,5 +111,5 @@ for x in (car1, boat1, plane1):
     print(x.brand)
     print(x.model)
     x.move()
-'''
+
 
